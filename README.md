@@ -13,12 +13,10 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.1 0.0.0.1
-127.0.0.1	localhost
-::1	localhost
-::1	ip6-localhost
-::1	ip6-pback
-
-
+127.0.0.1 localhost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-pback
 
 127.0.0.1 dlied1.qq.com
 127.0.0.1 dlied2.qq.com
@@ -1855,6 +1853,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.1 0.0.0.1 
+
 0.0.0.1 down.qq.com
 0.0.0.1 dlied1.qq.com
 0.0.0.1 dlied2.qq.com
@@ -1876,6 +1875,7 @@ ff02::3 ip6-allhosts
 0.0.0.1 uat.callofduty.com
 0.0.0.1 community.callofduty.com
 0.0.0.1 cloudctrl.codm.activision.com
+0.0.0.1 codm.garena.tw
 0.0.0.1 codm.garena.com
 0.0.0.1 speed.codm.garena.com
 
@@ -5816,6 +5816,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.1 0.0.0.1 
+
 0.0.0.1 down.qq.com
 0.0.0.1 dlied1.qq.com
 0.0.0.1 dlied2.qq.com
@@ -5833,6 +5834,7 @@ ff02::3 ip6-allhosts
 0.0.0.1 ied-tqos-tgp.qq.com
 0.0.0.1 appimg2.qq.com
 0.0.0.1 codm.garena.co.id
+0.0.0.1 codm.garena.tw
 0.0.0.1 www.callofduty.com
 0.0.0.1 uat.callofduty.com
 0.0.0.1 community.callofduty.com
@@ -7533,25 +7535,33 @@ ff02::3 ip6-allhosts
 0.0.0.1 121.51.142.185
 0.0.0.1 118.180.31.221
 0.0.0.1 112.19.7.64
+
 #DnsActivision
 0.0.0.1 23.72.193.231
 0.0.0.1 184.24.182.185
 0.0.0.1 104.121.237.35
+
 #DnsGarena
 0.0.0.1 122.11.131.7
+
 #DnsQQ
 0.0.0.1 125.39.52.26
 0.0.0.1 58.247.214.47
 0.0.0.1 58.250.137.36
+
 #DnsGarenaNow
 127.0.0.6 199.59.242.154
+
 #DnsActivision
 127.0.0.5 23.199.65.184
+
 #DnsAppsflyer
 127.0.0.4 35.231.151.109
+
 #DnsProximabeta
 127.0.0.3 79.124.78.105
 127.0.0.3 79.124.78.101
+
 #RecordDnsCODGarena
 0.0.0.1 119.28.98.172 
 0.0.0.1 119.28.98.172
@@ -7589,7 +7599,8 @@ ff02::3 ip6-allhosts
 0.0.0.1 101.32.143.171
 0.0.0.1 101.32.143.64
 0.0.0.1 129.226.2.37
-RecordDnsCODGlobal
+
+#RecordDnsCODGlobal
 127.0.0.7 52.117.213.113
 127.0.0.7 101.32.82.126
 127.0.0.7 124.156.38.39
@@ -7618,6 +7629,7 @@ RecordDnsCODGlobal
 #IPv4
 0.0.0.1 activision.com
 0.0.0.1 garena.com
+0.0.0.1 garena.tw
 0.0.0.1 garenanow.com
 0.0.0.1 qq.com
 0.0.0.1 proximabeta.com
@@ -7635,20 +7647,26 @@ RecordDnsCODGlobal
 0.0.0.1 sg.tdatamaster.com 
 0.0.0.1 lobbysg1.codm.garena.com
 0.0.0.1 t.appsflyer.com
+
 ###Domain Block Login Garena : 100082.connect.garena.com###
 0.0.0.1 csoversea.mbgame.gamesafe.qq.com
+
 ###Domain Block Update + Block Login : dlmobilegarena-a.akamaihd.net###
 0.0.0.1 vmp.qq.com
 0.0.0.1 dlied1.qq.com
 0.0.0.1 cloudctrl.codm.activision.com
 0.0.0.1 android.bugly.qq.com
 0.0.0.1 events.appsflyer.com
+0.0.0.1 ios.bugly.qq.com
+
 ###Domain Block Login Garena : connect.garenanow.com###
 0.0.0.1 sg.tdm.qq.com
 0.0.0.1 receiver.sg.tdm.qq.com
 0.0.0.1 speed.codm.garena.com
 0.0.0.1 cloud2.gsdk.proximabeta.com
 0.0.0.1 qos.hk.gcloudcs.com
+0.0.0.1 codm.garena.com
+
 ###Domain Block Login Guest : sg.itopsdk.com####
 0.0.0.1 cdn.wetest.qq.com
 0.0.0.1 speed.codm.garena.tw
@@ -7662,7 +7680,6 @@ RecordDnsCODGlobal
 0.0.0.1 hao.qq.com
 0.0.0.1 .qq.com
 0.0.0.1 .dynamic.tfn.net.tw
-0.0.0.1 codm.garena.tw
 
 #ScanningDomainGlobal
 0.0.0.1 inapps.appsflyer.com 
@@ -7679,7 +7696,7 @@ RecordDnsCODGlobal
 0.0.0.1 geolocation.onetrust.com
 0.0.0.1 launches.appsflyer.com
 0.0.0.1 activision.helpshift.com
---
+
 0.0.0.1 129.226.27.246
 0.0.0.1 intldlgs.qq.com
 0.0.0.1 scontent.fpat2-1.fna.fbcdn.net
@@ -7707,9 +7724,9 @@ RecordDnsCODGlobal
 0.0.0.1 49.51.173.203
 0.0.0.1 49.51.9.251
 0.0.0.1 49.51.11.48
-0.0.0.1 159.138.117.68                                                                                                                                                     @RAMBO_86
+0.0.0.1 159.138.117.68
 0.0.0.1 159.138.116.60
-0.0.0.1 162.6<2.18.113
+0.0.0.1 162.62.18.113
 0.0.0.1 162.62.20.252
 0.0.0.1 20.46.157.241
 0.0.0.1 20.46.158.20
@@ -7722,9 +7739,11 @@ RecordDnsCODGlobal
 0.0.0.1 119.28.248.218
 0.0.0.1 astat.bugly.qcloud.com
 0.0.0.1 speedtest.gem.codmwest.com
+
 ###Domain Block Login Activision : activision.itopsdk.com###
 0.0.0.1 in.west-gvoice.codmwest.com
 0.0.0.1 49.51.233.81
+
 ###Domain Block Update + Block Login : cdn-1302064167.file.myqcloud.com###
 0.0.0.1 20.46.148.92
 0.0.0.1 20.46.146.206
@@ -7738,16 +7757,16 @@ RecordDnsCODGlobal
 0.0.0.1 211.152 .128.100
 0.0.0.1 170.106.134.100
 0.0.0.1 211.152 .128.74
-0.0.0.1 logs.supersonic.com 
+0.0.0.1 logs.supersonic.com 
 0.0.0.1 211.152 .128.73
 0.0.0.1 49.51.66.151
 0.0.0.1 49.51.67.202
 0.0.0.1 211.152.146.61
 
-#BypassInti1
-
 162.210.102.233 codindo.com
-
+                                                                                                                                                  
+#BypassInti
+#BypassIntl
 0.0.0.1 182.239.122.90
 0.0.0.1 book.citilink.co.id
 0.0.0.1 minyakbulus.co.id
@@ -9788,6 +9807,7 @@ RecordDnsCODGlobal
 0.0.0.1 2402:4e00:8020:2::9
 
 #BypassInti
+#BypassIntl
 0.0.0.1 mtp.qq.com
 0.0.0.1 intl.mtp.qq.com
 0.0.0.1 cloud.mtp.qq.com
@@ -10223,7 +10243,6 @@ ff02::3 ip6-allhosts
 0.0.0.1 krping.igamecj.com
 0.0.0.1 vmp.qq.com
 0.0.0.1 intldlgs.qq.com
-
 0.0.0.1 app-measurement.com
 0.0.0.1 cloud2.gsdk.proximabeta.com
 0.0.0.1 gamestr.beacon.qq.com
@@ -10239,6 +10258,7 @@ ff02::3 ip6-allhosts
 0.0.0.1 pbs.twimg.com
 
 #BypassInti
+#BypassIntl
 0.0.0.1 mtp.qq.com
 0.0.0.1 intl.mtp.qq.com
 0.0.0.1 cloud.mtp.qq.com
@@ -10515,5 +10535,5 @@ ff02::3 ip6-allhosts
 0.0.0.1 ulogs.umeng.com
 0.0.0.1 my.mobfox.com
 
+
 # ButterCow #
-# Fucking any Share this file peoples #
